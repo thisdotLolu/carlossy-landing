@@ -1,4 +1,4 @@
-.tokenAllocation{
+tokenAllocation{
     background-image: url('../../../public/images/BG-08\ 1.png');
     height: 515px;
     /* margin-to 0px; */
@@ -230,11 +230,30 @@ table th{
 }
 .promoAfter{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
 }
+ .promoAfter .bonus {
+     color: white;
+     font-size: 1.5rem;
+     background-color: #6A8F1A;
+     width: 50%;
+     border-radius: 10px;
+     padding: 10px;
+     text-align: center;
+ }
 @media screen and (max-width:900px) {
+    .promoAfter .bonus{
+        color: white;
+        font-size: 1.5rem;
+        background-color: #6A8F1A;
+        width: 70%;
+        border-radius:10px;
+        padding:10px;
+        text-align:center;
+    }
     .tokenAllocation-inner1_1{
         flex-wrap: wrap;
     }
