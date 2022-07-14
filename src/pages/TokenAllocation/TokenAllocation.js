@@ -296,16 +296,7 @@ const TokenAllocation = () => {
       <div className="promoAfter">
         <img src="/images/Gift.png" alt="Gift" />
         <p
-          className="grobold"
-          style={{
-            color: "white",
-            fontSize: "1.5rem",
-            backgroundColor: "#6A8F1A",
-            width: '30%',
-            borderRadius:'10px',
-            padding: '10px',
-            textAlign:'center'
-          }}
+          className="grobold bonus"
         >
           20% bonus on your first purchase!
         </p>
