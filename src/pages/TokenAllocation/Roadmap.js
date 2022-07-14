@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom'
 // import Footer from '../../components/Footer'
 import { HashLink as Link } from 'react-router-hash-link';
 import {FaTelegram,FaFacebook,FaTwitter,FaYoutube,FaTimes,FaBars} from 'react-icons/fa'
-import Footer from '../../components/Footer';
 
 
 const Roadmap = () => {
